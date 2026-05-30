@@ -1,0 +1,16 @@
+# .clang-format
+IndentWidth: 4
+AccessModifierOffset: -4
+TabWidth: 4
+# 不使用Tab，统一用空格
+UseTab: Never
+# 单行最大字符数，超出自动换行
+ColumnLimit: 0
+# 大括号另起一行
+BreakBeforeBraces: Allman
+AlwaysBreakBeforeMultilineStrings: false
+AllowShortIfStatementsOnASingleLine: false
+InsertBraces: true
+AllowShortFunctionsOnASingleLine: Inline
+# 指针和引用的对齐方式：Left(靠左), Right(靠右), Middle(居中)
+PointerAlignment: Left
