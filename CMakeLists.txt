@@ -24,7 +24,7 @@ set(RESOURCES
     ${CMAKE_CURRENT_LIST_DIR}/sources/resources/resource.qrc
 )
 
-add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS} ${RESOURCES})
+add_executable(${PROJECT_NAME} WIN32 ${SOURCES} ${HEADERS} ${RESOURCES})
 
 target_include_directories(${PROJECT_NAME} 
     PRIVATE
